@@ -1,0 +1,16 @@
+<div class="game">
+	<div class="game-pannel">
+		<div class="game-pannel-header">
+			<h5 class="game-header">Conway's Game of Life</h2>
+		</div>
+		<div class="game-button-set">
+			<button class="game-button" ng-click="toggle()" type="button">{{rMessage}}</button>
+			<input ng-model="speedNumber" class = "game-slider" type="range" value="3" min="1" max="5">
+			<div class="game-speed-display">Speed: {{speedNumber}}</div>
+			<button class="game-button" ng-click="stepFunction()" type="button">Step</button>
+		</div>
+	</div>
+	<div id="canvas-wrapper">
+		<canvas class="game-canvas" width="500" height="500" game-canvas=""></canvas>
+	</div>
+</div>

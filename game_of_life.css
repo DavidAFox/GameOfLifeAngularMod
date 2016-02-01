@@ -1,0 +1,58 @@
+canvas.game-canvas {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+#canvas-wrapper {
+	display: inline-block;
+	float: left;	
+	width: 500px;
+	height: 500px;
+}
+.game-pannel {
+	border-style: solid;
+	border-color: black;
+	border-width: 0px 2px 0px 0px;
+	display: inline-block;
+	float: left;
+	width: 100px;
+	height: 500px;
+	margin: 0;
+	background: linear-gradient(white, green);
+}
+.game-button-set {
+	padding: 3px;
+	margin:0;
+	border-top-width: 2px;
+	border-top-style: solid;
+}
+.game-button {
+	margin: 3px 0px;
+	width: 100%;
+	display: inline-block;
+}
+h5.game-header {
+	text-align: center;
+	color: black;
+}
+.game {
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	display: inline-block;
+	box-shadow: 10px 10px 30px black;
+}
+.game-slider {
+	margin: 3px 0px;
+	width: 100%;
+}
+.game-speed-display {
+	margin: 3px 0px;
+	width: 100%;
+	background-color: lightgray;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+}
